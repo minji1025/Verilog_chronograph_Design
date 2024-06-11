@@ -1,0 +1,272 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+[GEN] tx_data: b6, tx: x 
+[DRV] tx_data: b6, tx: x 
+START
+[MON] tx_data: b6, tx: 0 
+[SCB] tx_data: b6, tx: 0 
+[MON] tx_data: b6, tx: 0 
+[SCB] tx_data: b6, tx: 0 
+[MON] tx_data: b6, tx: 1 
+[SCB] tx_data: b6, tx: 1 
+[MON] tx_data: b6, tx: 1 
+[SCB] tx_data: b6, tx: 1 
+[MON] tx_data: b6, tx: 0 
+[SCB] tx_data: b6, tx: 0 
+[MON] tx_data: b6, tx: 1 
+[SCB] tx_data: b6, tx: 1 
+[MON] tx_data: b6, tx: 1 
+[SCB] tx_data: b6, tx: 1 
+[MON] tx_data: b6, tx: 0 
+[SCB] tx_data: b6, tx: 0 
+[MON] tx_data: b6, tx: 1 
+[SCB] tx_data: b6, tx: 1 
+--> PASS 10110110==10110110 //            8
+STOP
+[MON] tx_data: b6, tx: 1 
+[SCB] tx_data: b6, tx: 1 
+IDLE
+[GEN] tx_data: 3f, tx: x 
+[DRV] tx_data: 3f, tx: x 
+START
+[MON] tx_data: 3f, tx: 0 
+[SCB] tx_data: 3f, tx: 0 
+[MON] tx_data: 3f, tx: 1 
+[SCB] tx_data: 3f, tx: 1 
+[MON] tx_data: 3f, tx: 1 
+[SCB] tx_data: 3f, tx: 1 
+[MON] tx_data: 3f, tx: 1 
+[SCB] tx_data: 3f, tx: 1 
+[MON] tx_data: 3f, tx: 1 
+[SCB] tx_data: 3f, tx: 1 
+[MON] tx_data: 3f, tx: 1 
+[SCB] tx_data: 3f, tx: 1 
+[MON] tx_data: 3f, tx: 1 
+[SCB] tx_data: 3f, tx: 1 
+[MON] tx_data: 3f, tx: 0 
+[SCB] tx_data: 3f, tx: 0 
+[MON] tx_data: 3f, tx: 0 
+[SCB] tx_data: 3f, tx: 0 
+--> PASS 00111111==00111111 //           18
+STOP
+[MON] tx_data: 3f, tx: 1 
+[SCB] tx_data: 3f, tx: 1 
+IDLE
+[GEN] tx_data: 2b, tx: x 
+[DRV] tx_data: 2b, tx: x 
+START
+[MON] tx_data: 2b, tx: 0 
+[SCB] tx_data: 2b, tx: 0 
+[MON] tx_data: 2b, tx: 1 
+[SCB] tx_data: 2b, tx: 1 
+[MON] tx_data: 2b, tx: 1 
+[SCB] tx_data: 2b, tx: 1 
+[MON] tx_data: 2b, tx: 0 
+[SCB] tx_data: 2b, tx: 0 
+[MON] tx_data: 2b, tx: 1 
+[SCB] tx_data: 2b, tx: 1 
+[MON] tx_data: 2b, tx: 0 
+[SCB] tx_data: 2b, tx: 0 
+[MON] tx_data: 2b, tx: 1 
+[SCB] tx_data: 2b, tx: 1 
+[MON] tx_data: 2b, tx: 0 
+[SCB] tx_data: 2b, tx: 0 
+[MON] tx_data: 2b, tx: 0 
+[SCB] tx_data: 2b, tx: 0 
+--> PASS 00101011==00101011 //           28
+STOP
+[MON] tx_data: 2b, tx: 1 
+[SCB] tx_data: 2b, tx: 1 
+IDLE
+[GEN] tx_data: 72, tx: x 
+[DRV] tx_data: 72, tx: x 
+START
+[MON] tx_data: 72, tx: 0 
+[SCB] tx_data: 72, tx: 0 
+[MON] tx_data: 72, tx: 0 
+[SCB] tx_data: 72, tx: 0 
+[MON] tx_data: 72, tx: 1 
+[SCB] tx_data: 72, tx: 1 
+[MON] tx_data: 72, tx: 0 
+[SCB] tx_data: 72, tx: 0 
+[MON] tx_data: 72, tx: 0 
+[SCB] tx_data: 72, tx: 0 
+[MON] tx_data: 72, tx: 1 
+[SCB] tx_data: 72, tx: 1 
+[MON] tx_data: 72, tx: 1 
+[SCB] tx_data: 72, tx: 1 
+[MON] tx_data: 72, tx: 1 
+[SCB] tx_data: 72, tx: 1 
+[MON] tx_data: 72, tx: 0 
+[SCB] tx_data: 72, tx: 0 
+--> PASS 01110010==01110010 //           38
+STOP
+[MON] tx_data: 72, tx: 1 
+[SCB] tx_data: 72, tx: 1 
+IDLE
+[GEN] tx_data: 43, tx: x 
+[DRV] tx_data: 43, tx: x 
+START
+[MON] tx_data: 43, tx: 0 
+[SCB] tx_data: 43, tx: 0 
+[MON] tx_data: 43, tx: 1 
+[SCB] tx_data: 43, tx: 1 
+[MON] tx_data: 43, tx: 1 
+[SCB] tx_data: 43, tx: 1 
+[MON] tx_data: 43, tx: 0 
+[SCB] tx_data: 43, tx: 0 
+[MON] tx_data: 43, tx: 0 
+[SCB] tx_data: 43, tx: 0 
+[MON] tx_data: 43, tx: 0 
+[SCB] tx_data: 43, tx: 0 
+[MON] tx_data: 43, tx: 0 
+[SCB] tx_data: 43, tx: 0 
+[MON] tx_data: 43, tx: 1 
+[SCB] tx_data: 43, tx: 1 
+[MON] tx_data: 43, tx: 0 
+[SCB] tx_data: 43, tx: 0 
+--> PASS 01000011==01000011 //           48
+STOP
+[MON] tx_data: 43, tx: 1 
+[SCB] tx_data: 43, tx: 1 
+IDLE
+[GEN] tx_data: 75, tx: x 
+[DRV] tx_data: 75, tx: x 
+START
+[MON] tx_data: 75, tx: 0 
+[SCB] tx_data: 75, tx: 0 
+[MON] tx_data: 75, tx: 1 
+[SCB] tx_data: 75, tx: 1 
+[MON] tx_data: 75, tx: 0 
+[SCB] tx_data: 75, tx: 0 
+[MON] tx_data: 75, tx: 1 
+[SCB] tx_data: 75, tx: 1 
+[MON] tx_data: 75, tx: 0 
+[SCB] tx_data: 75, tx: 0 
+[MON] tx_data: 75, tx: 1 
+[SCB] tx_data: 75, tx: 1 
+[MON] tx_data: 75, tx: 1 
+[SCB] tx_data: 75, tx: 1 
+[MON] tx_data: 75, tx: 1 
+[SCB] tx_data: 75, tx: 1 
+[MON] tx_data: 75, tx: 0 
+[SCB] tx_data: 75, tx: 0 
+--> PASS 01110101==01110101 //           58
+STOP
+[MON] tx_data: 75, tx: 1 
+[SCB] tx_data: 75, tx: 1 
+IDLE
+[GEN] tx_data: 41, tx: x 
+[DRV] tx_data: 41, tx: x 
+START
+[MON] tx_data: 41, tx: 0 
+[SCB] tx_data: 41, tx: 0 
+[MON] tx_data: 41, tx: 1 
+[SCB] tx_data: 41, tx: 1 
+[MON] tx_data: 41, tx: 0 
+[SCB] tx_data: 41, tx: 0 
+[MON] tx_data: 41, tx: 0 
+[SCB] tx_data: 41, tx: 0 
+[MON] tx_data: 41, tx: 0 
+[SCB] tx_data: 41, tx: 0 
+[MON] tx_data: 41, tx: 0 
+[SCB] tx_data: 41, tx: 0 
+[MON] tx_data: 41, tx: 0 
+[SCB] tx_data: 41, tx: 0 
+[MON] tx_data: 41, tx: 1 
+[SCB] tx_data: 41, tx: 1 
+[MON] tx_data: 41, tx: 0 
+[SCB] tx_data: 41, tx: 0 
+--> PASS 01000001==01000001 //           68
+STOP
+[MON] tx_data: 41, tx: 1 
+[SCB] tx_data: 41, tx: 1 
+IDLE
+[GEN] tx_data: f8, tx: x 
+[DRV] tx_data: f8, tx: x 
+START
+[MON] tx_data: f8, tx: 0 
+[SCB] tx_data: f8, tx: 0 
+[MON] tx_data: f8, tx: 0 
+[SCB] tx_data: f8, tx: 0 
+[MON] tx_data: f8, tx: 0 
+[SCB] tx_data: f8, tx: 0 
+[MON] tx_data: f8, tx: 0 
+[SCB] tx_data: f8, tx: 0 
+[MON] tx_data: f8, tx: 1 
+[SCB] tx_data: f8, tx: 1 
+[MON] tx_data: f8, tx: 1 
+[SCB] tx_data: f8, tx: 1 
+[MON] tx_data: f8, tx: 1 
+[SCB] tx_data: f8, tx: 1 
+[MON] tx_data: f8, tx: 1 
+[SCB] tx_data: f8, tx: 1 
+[MON] tx_data: f8, tx: 1 
+[SCB] tx_data: f8, tx: 1 
+--> PASS 11111000==11111000 //           78
+STOP
+[MON] tx_data: f8, tx: 1 
+[SCB] tx_data: f8, tx: 1 
+IDLE
+[GEN] tx_data: 2c, tx: x 
+[DRV] tx_data: 2c, tx: x 
+START
+[MON] tx_data: 2c, tx: 0 
+[SCB] tx_data: 2c, tx: 0 
+[MON] tx_data: 2c, tx: 0 
+[SCB] tx_data: 2c, tx: 0 
+[MON] tx_data: 2c, tx: 0 
+[SCB] tx_data: 2c, tx: 0 
+[MON] tx_data: 2c, tx: 1 
+[SCB] tx_data: 2c, tx: 1 
+[MON] tx_data: 2c, tx: 1 
+[SCB] tx_data: 2c, tx: 1 
+[MON] tx_data: 2c, tx: 0 
+[SCB] tx_data: 2c, tx: 0 
+[MON] tx_data: 2c, tx: 1 
+[SCB] tx_data: 2c, tx: 1 
+[MON] tx_data: 2c, tx: 0 
+[SCB] tx_data: 2c, tx: 0 
+[MON] tx_data: 2c, tx: 0 
+[SCB] tx_data: 2c, tx: 0 
+--> PASS 00101100==00101100 //           88
+STOP
+[MON] tx_data: 2c, tx: 1 
+[SCB] tx_data: 2c, tx: 1 
+IDLE
+[GEN] tx_data: a8, tx: x 
+[DRV] tx_data: a8, tx: x 
+START
+[MON] tx_data: a8, tx: 0 
+[SCB] tx_data: a8, tx: 0 
+[MON] tx_data: a8, tx: 0 
+[SCB] tx_data: a8, tx: 0 
+[MON] tx_data: a8, tx: 0 
+[SCB] tx_data: a8, tx: 0 
+[MON] tx_data: a8, tx: 0 
+[SCB] tx_data: a8, tx: 0 
+[MON] tx_data: a8, tx: 1 
+[SCB] tx_data: a8, tx: 1 
+[MON] tx_data: a8, tx: 0 
+[SCB] tx_data: a8, tx: 0 
+[MON] tx_data: a8, tx: 1 
+[SCB] tx_data: a8, tx: 1 
+[MON] tx_data: a8, tx: 0 
+[SCB] tx_data: a8, tx: 0 
+[MON] tx_data: a8, tx: 1 
+[SCB] tx_data: a8, tx: 1 
+--> PASS 10101000==10101000 //           98
+STOP
+[MON] tx_data: a8, tx: 1 
+[SCB] tx_data: a8, tx: 1 
+IDLE
+=======================
+==Final Repoert==
+=======================
+Total test:        100
+Pass test:          10
+Fail test:           0
+=======================
+test bench is finished
+=======================
+$finish called at time : 65055 ns : File "D:/FPGA_KImMinJi/project_tx_sv/project_tx_sv.srcs/sim_1/new/tb_tx.sv" Line 203

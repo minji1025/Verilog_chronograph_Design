@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/FPGA_KImMinJi/project_tx_sv/project_tx_sv.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+D:/FPGA_KImMinJi/project_tx_sv/project_tx_sv.srcs/sim_1/new/tb_tx.sv,1716788443,systemVerilog,,,,$unit_tb_tx_sv;tb_tx;uart_interface,,uvm,,,,,,
+D:/FPGA_KImMinJi/project_tx_sv/project_tx_sv.srcs/sources_1/imports/new/uart.v,1716691281,verilog,,,,baudrate_generator;receiver;transmitter;uart,,uvm,,,,,,
