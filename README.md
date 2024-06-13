@@ -16,8 +16,11 @@
 ## Project goal
 ![image](https://github.com/minji1025/chronograph_Design_UART_Verification/assets/163821451/4fa0f814-c778-419d-aba8-15da03e733d8)
 
+## 동작 영상
+https://github.com/minji1025/chronograph_Design_UART_Verification/tree/Video
   
 ## Code
 * Chronograph Desgin : https://github.com/minji1025/chronograph_Design_UART_Verification/tree/master
 * RX Verification : https://github.com/minji1025/chronograph_Design_UART_Verification/tree/RX
 * TX Verification : https://github.com/minji1025/chronograph_Design_UART_Verification/tree/TX
+
