@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Jul 19 09:56:46 2024
+# Process ID: 16752
+# Current directory: C:/Users/kccistc/Desktop/project_rx_sv
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11300 C:\Users\kccistc\Desktop\project_rx_sv\project_rx_sv.xpr
+# Log file: C:/Users/kccistc/Desktop/project_rx_sv/vivado.log
+# Journal file: C:/Users/kccistc/Desktop/project_rx_sv\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kccistc/Desktop/project_rx_sv/project_rx_sv.xpr
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
+source tb_rx.tcl
+run 3 s
+close_sim

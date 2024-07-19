@@ -1,0 +1,466 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Jul 19 09:56:46 2024
+# Process ID: 16752
+# Current directory: C:/Users/kccistc/Desktop/project_rx_sv
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11300 C:\Users\kccistc\Desktop\project_rx_sv\project_rx_sv.xpr
+# Log file: C:/Users/kccistc/Desktop/project_rx_sv/vivado.log
+# Journal file: C:/Users/kccistc/Desktop/project_rx_sv\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kccistc/Desktop/project_rx_sv/project_rx_sv.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/kccistc/FPGA/Harman6/project_rx_sv' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/kccistc/Desktop/project_rx_sv/project_rx_sv.gen/sources_1', nor could it be found using path 'C:/Users/kccistc/FPGA/Harman6/project_rx_sv/project_rx_sv.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1085.055 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 16
+[Fri Jul 19 09:58:22 2024] Launched synth_1...
+Run output will be captured here: C:/Users/kccistc/Desktop/project_rx_sv/project_rx_sv.runs/synth_1/runme.log
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xcvc1802-viva1596-1LHP-i-L
+Top: uart
+INFO: [Device 21-403] Loading part xcvc1802-viva1596-1LHP-i-L
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+2 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:19 . Memory (MB): peak = 1813.914 ; gain = 728.859
+INFO: [Common 17-344] 'synth_design' was cancelled
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/kccistc/Desktop/project_rx_sv/project_rx_sv.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_rx' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kccistc/Desktop/project_rx_sv/project_rx_sv.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_rx_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kccistc/Desktop/project_rx_sv/project_rx_sv.srcs/sources_1/imports/new/uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart
+INFO: [VRFC 10-311] analyzing module baudrate_generator
+INFO: [VRFC 10-311] analyzing module transmitter
+INFO: [VRFC 10-311] analyzing module receiver
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/kccistc/Desktop/project_rx_sv/project_rx_sv.srcs/sim_1/new/tb_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kccistc/Desktop/project_rx_sv/project_rx_sv.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kccistc/Desktop/project_rx_sv/project_rx_sv.sim/sim_1/behav/xsim'
+"xelab -wto 84347371142442c49bb12801a827367e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip --snapshot tb_rx_behav xil_defaultlib.tb_rx xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 84347371142442c49bb12801a827367e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip --snapshot tb_rx_behav xil_defaultlib.tb_rx xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'start' is not connected on this instance [C:/Users/kccistc/Desktop/project_rx_sv/project_rx_sv.srcs/sim_1/new/tb_rx.sv:230]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_tb_rx_sv
+Compiling package std.std
+Compiling module xil_defaultlib.receiver_interface
+Compiling module xil_defaultlib.baudrate_generator
+Compiling module xil_defaultlib.transmitter
+Compiling module xil_defaultlib.receiver
+Compiling module xil_defaultlib.uart
+Compiling module xil_defaultlib.tb_rx
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_rx_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/kccistc/Desktop/project_rx_sv/project_rx_sv.sim/sim_1/behav/xsim/xsim.dir/tb_rx_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Jul 19 09:58:51 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/kccistc/Desktop/project_rx_sv/project_rx_sv.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_rx_behav -key {Behavioral:sim_1:Functional:tb_rx} -tclbatch {tb_rx.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source tb_rx.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: Simulation object /tb_rx/env was not traceable in the design for the following reason:
+Vivado Simulator does not support tracing of System Verilog Dynamic Type object.
+INFO: [Wavedata 42-43] There are no traceable objects to add.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_rx_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1869.684 ; gain = 28.484
+run 3 s
+[GEN] rx: 0, rx_data: xx
+START
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 80
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: c0
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 60
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: b0
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: d8
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: ec
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 76
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 3b
+[GEN] rx: 0, rx_data: xx
+END
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 1, rx_data: 3b
+[SCB] rx: 1, rx_data: 3b
+ ---> PASS! 3b == 3b // total_cnt :           9
+[GEN] rx: 1, rx_data: xx
+START
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 80
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: c0
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: e0
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 70
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 38
+[GEN] rx: 1, rx_data: xx
+END
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 1c
+[SCB] rx: 1, rx_data: 1c
+ ---> PASS! 1c == 1c // total_cnt :          19
+[GEN] rx: 0, rx_data: xx
+START
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 80
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: c0
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 60
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: b0
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 58
+[GEN] rx: 1, rx_data: xx
+END
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 2c
+[SCB] rx: 1, rx_data: 2c
+ ---> PASS! 2c == 2c // total_cnt :          29
+[GEN] rx: 0, rx_data: xx
+START
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 80
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 40
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: a0
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: d0
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 68
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: b4
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: da
+[GEN] rx: 0, rx_data: xx
+END
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 1, rx_data: ed
+[SCB] rx: 1, rx_data: ed
+ ---> PASS! ed == ed // total_cnt :          39
+[GEN] rx: 1, rx_data: xx
+START
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 80
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: c0
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 60
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 30
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 98
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 4c
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: a6
+[GEN] rx: 1, rx_data: xx
+END
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 53
+[SCB] rx: 1, rx_data: 53
+ ---> PASS! 53 == 53 // total_cnt :          49
+[GEN] rx: 1, rx_data: xx
+START
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 80
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 40
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 20
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 90
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: c8
+[GEN] rx: 1, rx_data: xx
+END
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: e4
+[SCB] rx: 1, rx_data: e4
+ ---> PASS! e4 == e4 // total_cnt :          59
+[GEN] rx: 1, rx_data: xx
+START
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 80
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: c0
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 60
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 30
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 98
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 4c
+[GEN] rx: 0, rx_data: xx
+END
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 1, rx_data: a6
+[SCB] rx: 1, rx_data: a6
+ ---> PASS! a6 == a6 // total_cnt :          69
+[GEN] rx: 1, rx_data: xx
+START
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 80
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 40
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 20
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 90
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: c8
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: e4
+[GEN] rx: 0, rx_data: xx
+END
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 1, rx_data: 72
+[SCB] rx: 1, rx_data: 72
+ ---> PASS! 72 == 72 // total_cnt :          79
+[GEN] rx: 1, rx_data: xx
+START
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 80
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: c0
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: e0
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 70
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: b8
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: dc
+[GEN] rx: 0, rx_data: xx
+END
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 1, rx_data: ee
+[SCB] rx: 1, rx_data: ee
+ ---> PASS! ee == ee // total_cnt :          89
+[GEN] rx: 0, rx_data: xx
+START
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 80
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 40
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 20
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 90
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: c8
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: e4
+[GEN] rx: 0, rx_data: xx
+END
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 1, rx_data: f2
+[SCB] rx: 1, rx_data: f2
+ ---> PASS! f2 == f2 // total_cnt :          99
+========================
+==    Final Report    ==
+Total Test :         100
+Pass Count :          10
+Fail Count :           0
+=========================
+test bench is finished!
+=========================
+$finish called at time : 64105 ns : File "C:/Users/kccistc/Desktop/project_rx_sv/project_rx_sv.srcs/sim_1/new/tb_rx.sv" Line 215
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 19 09:59:04 2024...

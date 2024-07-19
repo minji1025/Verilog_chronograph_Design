@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/kccistc/Desktop/project_rx_sv/project_rx_sv.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/kccistc/Desktop/project_rx_sv/project_rx_sv.srcs/sim_1/new/tb_rx.sv,1716716576,systemVerilog,,,,$unit_tb_rx_sv;receiver_interface;tb_rx,,uvm,,,,,,
+C:/Users/kccistc/Desktop/project_rx_sv/project_rx_sv.srcs/sources_1/imports/new/uart.v,1716691281,verilog,,,,baudrate_generator;receiver;transmitter;uart,,uvm,,,,,,

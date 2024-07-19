@@ -1,0 +1,351 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+[GEN] rx: 0, rx_data: xx
+START
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 80
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: c0
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 60
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: b0
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: d8
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: ec
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 76
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 3b
+[GEN] rx: 0, rx_data: xx
+END
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 1, rx_data: 3b
+[SCB] rx: 1, rx_data: 3b
+ ---> PASS! 3b == 3b // total_cnt :           9
+[GEN] rx: 1, rx_data: xx
+START
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 80
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: c0
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: e0
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 70
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 38
+[GEN] rx: 1, rx_data: xx
+END
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 1c
+[SCB] rx: 1, rx_data: 1c
+ ---> PASS! 1c == 1c // total_cnt :          19
+[GEN] rx: 0, rx_data: xx
+START
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 80
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: c0
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 60
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: b0
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 58
+[GEN] rx: 1, rx_data: xx
+END
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 2c
+[SCB] rx: 1, rx_data: 2c
+ ---> PASS! 2c == 2c // total_cnt :          29
+[GEN] rx: 0, rx_data: xx
+START
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 80
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 40
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: a0
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: d0
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 68
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: b4
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: da
+[GEN] rx: 0, rx_data: xx
+END
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 1, rx_data: ed
+[SCB] rx: 1, rx_data: ed
+ ---> PASS! ed == ed // total_cnt :          39
+[GEN] rx: 1, rx_data: xx
+START
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 80
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: c0
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 60
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 30
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 98
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 4c
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: a6
+[GEN] rx: 1, rx_data: xx
+END
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 53
+[SCB] rx: 1, rx_data: 53
+ ---> PASS! 53 == 53 // total_cnt :          49
+[GEN] rx: 1, rx_data: xx
+START
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 80
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 40
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 20
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 90
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: c8
+[GEN] rx: 1, rx_data: xx
+END
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: e4
+[SCB] rx: 1, rx_data: e4
+ ---> PASS! e4 == e4 // total_cnt :          59
+[GEN] rx: 1, rx_data: xx
+START
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 80
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: c0
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 60
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 30
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 98
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 4c
+[GEN] rx: 0, rx_data: xx
+END
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 1, rx_data: a6
+[SCB] rx: 1, rx_data: a6
+ ---> PASS! a6 == a6 // total_cnt :          69
+[GEN] rx: 1, rx_data: xx
+START
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 80
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 40
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 20
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 90
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: c8
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: e4
+[GEN] rx: 0, rx_data: xx
+END
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 1, rx_data: 72
+[SCB] rx: 1, rx_data: 72
+ ---> PASS! 72 == 72 // total_cnt :          79
+[GEN] rx: 1, rx_data: xx
+START
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 80
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: c0
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: e0
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 70
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: b8
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: dc
+[GEN] rx: 0, rx_data: xx
+END
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 1, rx_data: ee
+[SCB] rx: 1, rx_data: ee
+ ---> PASS! ee == ee // total_cnt :          89
+[GEN] rx: 0, rx_data: xx
+START
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 00
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 00
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 80
+[GEN] rx: 0, rx_data: xx
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 0, rx_data: 40
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 20
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: 90
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: c8
+[GEN] rx: 1, rx_data: xx
+[DRV] rx: 1, rx_data: xx
+[MON] rx: 1, rx_data: e4
+[GEN] rx: 0, rx_data: xx
+END
+[DRV] rx: 0, rx_data: xx
+[MON] rx: 1, rx_data: f2
+[SCB] rx: 1, rx_data: f2
+ ---> PASS! f2 == f2 // total_cnt :          99
+========================
+==    Final Report    ==
+Total Test :         100
+Pass Count :          10
+Fail Count :           0
+=========================
+test bench is finished!
+=========================
+$finish called at time : 64105 ns : File "C:/Users/kccistc/Desktop/project_rx_sv/project_rx_sv.srcs/sim_1/new/tb_rx.sv" Line 215
